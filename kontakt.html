@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HUSK UNIK TITLE TIL ALLE SIDER -->
+    <title></title>
+    <!-- Husk en beskrivelse af siden i content-->
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-------------------------------HEADER------------------------------->
+
+
+    <header>
+
+        <div id="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <label id="burger-menu" for="toggle">&#9776;</label>
+        </div>
+
+        <!--dette er en checkbox som gør det muligt at folde burgermenuen ud, og den skal ligge udenfor de to divs-->
+
+        <input type="checkbox" id="toggle" class="hidden">
+
+        <div class="main-nav">
+            <a href="menu.html">Menu</a>
+            <a href="kurser-og-arrangementer.html">Kurser og arrangementer</a>
+            <a href="opskrifter.html">Opskrifter</a>
+            <a href="om-dittes-verden.html">Om Dittes Verden</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+
+    </header>
+
+
+    <main id="kontakt-side">
+
+        <h1>Kontakt os</h1>
+        <p>Har du et spørgsmål til os? Eller kunne du tænke dig at booke dig selv ind på et kursus eller arrangement? Eller måske bare bestille ugens ret, så udfyld venligst nedenfor</p> <br>
+
+        <form id="kontakt-form">
+            <label for="name">Navn</label>
+            <input type="text" id="navn" name="firstname" placeholder="Skriv dit navn her...">
+
+            <label for="e-mail">E-mail</label>
+            <input type="e-mail" id="e-mail" name="e-mail" placeholder="Skriv din e-mail her...">
+
+            <label for="subject">Beskrivelse</label>
+            <textarea id="beskrivelse" name="subject" placeholder="Skriv din besked her..." style="height:200px"></textarea>
+
+            <input id="send-knap" type="submit" value="Send">
+        </form>
+
+        <h2>Oplysninger</h2>
+        <div id="oplysninger">
+            <p>Ditte Tranberg</p>
+            <p>Brabrand Haveforening 1967, Hus 10</p>
+            <p>Edwin Rahrs vej 67</p>
+            <p>8220 Aarhus N</p>
+            <br>
+            <p><img src="images/mail.png" alt="mail-ikon" width="20px"> info@dittesverden.dk</p>
+            <p><img src="images/phone.png" alt="telfon-ikon" width="20px;"> +45 24420284</p>
+            <br>
+            <p>CVR: 40963154</p>
+        </div>
+        <br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.620722197308!2d10.1116852515046!3d56.16366206760122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c152403f63525%3A0xdf3b54a82950c9dc!2sBrabrand%20Haveforening%20af%201967!5e0!3m2!1sda!2sdk!4v1589445194279!5m2!1sda!2sdk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    </main>
+
+    <footer>
+        <br>
+        <h3>Kontakt</h3>
+        <p>Brabrand Haveforening 1967, Hus 10</p>
+        <p>Edwin Rahrs vej 67</p>
+        <p>8220 Aarhus N
+        </p> <br>
+
+        <p>info@dittesverden.dk</p>
+        <p> +45 24420284</p> <br>
+        <p>CVR: 40963154</p>
+
+        <br>
+        <a href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk1742943"><img src="images/smiley.png" alt="egenkontrol" width="60px"></a>
+        <a href="https://www.facebook.com/dittesverden1/"><img src="images/facebook.png" alt="Facebook" width="60px"></a>
+        <a href="https://www.instagram.com/dittesverden1/"><img src="images/instagram.png" alt="Instagram" width="60px"></a>
+        <br>
+        <br>
+    </footer>
+
+
+
+    <script src="js.js"></script>
+</body></html>

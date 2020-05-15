@@ -1,0 +1,240 @@
+/* GENERELLE REGLER*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+
+/*---------------------HEADER--------------------*/
+
+header {
+    background-image: url(../images/prikker.jpg);
+    background-repeat: repeat;
+    background-size: 30%;
+}
+
+/*NAVIGATION - Responsiv med Flexbox*/
+
+#logo {
+    width: 100%;
+}
+
+#logo img {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+.main-nav {
+    display: flex;
+    overflow: hidden;
+    background-color: #f66d50;
+    margin-right: .5em;
+}
+
+.main-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+
+.main-nav a:hover {
+    color: #EEE7E0;
+}
+
+/*active class sættes på det link i menuen man befinder sig på, så farven ændres på menuen på den aktuelle side*/
+
+.active {
+    background-color: #f66d50;
+    color: white;
+}
+
+/*Denne skjuler burgermenuens checkbox som aktiverer toggle funktionen*/
+.hidden {
+    display: none;
+}
+
+/*------MAIN------*/
+h1,
+h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*-----MENU-----*/
+.menu-tavle {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    color: white;
+    font-family: 'Shadows Into Light Two', cursive;
+    line-height: 3em;
+    font-size: 20px
+}
+
+.specialiteter img {
+    width: 30%;
+}
+
+/*-----KONTAKT-----*/
+
+#navn,
+#e-mail,
+#beskrivelse {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#send-knap {
+    width: 20%;
+    font-size: 15px;
+    background-color: #f66d50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#send-knap:hover {
+    background-color: #f66d50;
+}
+
+#kontakt-form {
+    border-radius: 5px;
+    background-color: rgb(248, 180, 157);
+    padding: 20px;
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#oplysninger {
+    text-align: center;
+}
+
+
+/*-----------FOOTER------------*/
+
+
+footer {
+    background: #EEE7E0;
+    text-align: center;
+}
+
+
+/*MEDIA QUERY MOBILE*/
+
+@media all and (max-width: 599px) {
+    header {
+        display: block;
+    }
+
+    #burger-menu {
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        overflow: hidden;
+        background-color: #f66d50;
+        padding: 0 15px;
+    }
+
+    #toggle:checked + .main-nav {
+        display: block;
+    }
+
+    .main-nav {
+        display: none;
+        margin: auto;
+    }
+
+    .main-nav a {
+        text-align: center;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        font-size: 20px
+    }
+
+    p {
+        margin: 0 20px;
+    }
+
+}
+
+
+/*MEDIA QUERY TABLET AND ABOVE*/
+
+@media all and (min-width: 600px) {
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main-nav {
+        justify-content: space-evenly;
+        min-width: 50%;
+        margin: 0;
+    }
+
+    .main-nav a {
+        margin: 5px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+
+    #burger-menu {
+        display: none;
+    }
+
+    p {
+        margin: 0 50px;
+    }
+}
+
+/*MEDIA QUERY LAPTOP AND ABOVE*/
+
+@media all and (min-width: 1024px) {
+    nav {
+        flex-direction: row;
+    }
+
+    #logo {
+        margin-right: auto;
+    }
+
+    #burger-menu {
+        display: none;
+    }
+
+    p {
+        text-align: center;
+        margin: 0 70px;
+    }
+
+    /*------KONTAKT------*/
+
+
+}
