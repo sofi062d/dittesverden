@@ -117,6 +117,22 @@ table {
     margin: 0 50px;
 }
 
+/*-------anmeldelser------*/
+.anmeldelser {
+    background-color: #f66d50;
+    color: white;
+}
+
+.flex-anmeld {
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-items: space;
+
+
+
+}
 
 /*-----KONTAKT-----*/
 
