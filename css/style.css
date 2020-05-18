@@ -113,6 +113,19 @@ table {
     margin: 0 50px;
 }
 
+/*-------anmeldelser------*/
+.anmeldelser {
+    background-color: #f66d50;
+    color: white;
+}
+
+.flex-anmeld {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    text-align: center;
+}
 
 /*-----KONTAKT-----*/
 
