@@ -137,6 +137,107 @@ table {
     margin: 0 auto;
 }
 
+
+
+/*-----OM DITTES VERDEN-----*/
+
+a {
+    text-decoration: none;
+}
+
+.omkonceptet,
+.omlinser {
+    background-color: #f66d50;
+    color: whitesmoke;
+
+}
+
+.omdittesverden h1,
+.omdittesverden p,
+.omdittesverden blockquote {
+    text-align: left;
+    margin: 15px 50px;
+}
+
+.omdittesverden h1 {
+    padding-top: 20px;
+}
+
+.omdittesverden img {
+    width: 60vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.portraet {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.omditte h1 {
+    margin-bottom: 5px;
+    padding-top: 20px;
+    font-size: 5em;
+}
+
+.omditte blockquote {
+    font-style: oblique;
+    font-size: 1.2em;
+
+}
+
+button {
+    background-color: #f66d50;
+    color: #FFFFFF;
+    width: 30%;
+    font-size: 130%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.omkonceptet img {
+    width: 30%;
+    float: right;
+    shape-outside: border-box;
+    margin-top: -33%;
+}
+
+.widthp {
+    width: 65%;
+    padding-bottom: 20px;
+}
+
+.mission img {
+    width: 30%;
+    float: left;
+    shape-outside: border-box;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.omlinser img {
+    width: 30%;
+
+}
+
+/*KAN IKKE FÅ TIL AT VIRKE!*/
+.omdittesverden h4 {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.buyhere {
+    padding-bottom: 20px;
+}
+
+.buyhere ul {
+    font-size: 1.2em;
+}
+
+
 /*-----KONTAKT-----*/
 
 #navn,
@@ -274,6 +375,8 @@ footer {
         margin: 0 50px;
     }
 
+
+
     /*-----MENU-----*/
     .specialiteter-container {
         display: flex;
@@ -285,6 +388,91 @@ footer {
     .specialiteter-indhold {
         width: 400px;
         text-align: center;
+    }
+
+
+
+    /*-----OM DITTES VERDEN-----*/
+
+    .omdittesverden h1,
+    .omdittesverden p,
+    .omdittesverden blockquote {
+        text-align: left;
+        margin: 15px 90px;
+    }
+
+    button {
+        margin: 15px 90px;
+    }
+
+    .omditterow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .omdittecol {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .omditterow img {
+        width: 30%;
+        margin-right: 10%;
+    }
+
+    .omkontekst,
+    .omkonceptet img {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .omkontekst {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .omkonceptet img {
+        float: none;
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .mission {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .missiontekst {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .mission img {
+        width: 30%;
+        height: 40%;
+        float: none;
+        margin: auto 0;
+    }
+
+    .halvkilo,
+    .etkilo,
+    .tokilo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 33%;
+    }
+
+    .linserprodukter {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    .linserprodukter img {
+        margin: 10px;
+        width: 50%;
     }
 }
 
