@@ -19,7 +19,7 @@
     }
 
     .carousel-inner {
-        @media all and (min-width: 768px) {
+        @media all and (max-width: 599px) {
 
             @media (transform-3d),
             (-webkit-transform-3d) {
@@ -65,7 +65,7 @@
             }
         }
 
-        @media all and (min-width: 992px) {
+        @media all and (min-width: 600px) {
 
             @media (transform-3d),
             (-webkit-transform-3d) {
@@ -127,7 +127,7 @@ body {
 }
 
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 1024px) {
     margin: 28px;
     float: left;
 }
