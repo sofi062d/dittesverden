@@ -8,3 +8,12 @@ function myFunction() {
         x.className = "nav-bar";
     }
 }
+
+//Videoafspilning, hvis videoen er synlig, så afspilles den.
+const video = document.getElementById("intro")
+console.log(video)
+if (erSynlig("intro")) {
+    video.play()
+} else {
+    video.pause()
+}

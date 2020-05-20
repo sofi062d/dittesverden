@@ -114,8 +114,6 @@
 }
 
 .flex-container {
-
-    margin: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -123,21 +121,16 @@
 
 /*Menu-tavle*/
 .menu-tavle2 {
-    display: block;
-    margin: 0 auto;
-    width: 40%;
+    max-width: 60%;
     height: 40%;
     background-color: black;
     color: white;
     font-family: 'Shadows Into Light Two', cursive;
     line-height: 3em;
-    font-size: 20px
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .menu-tabel {
-    min-width: 10%;
-}
-
-.specialiteter-indhold img {
-    width: 200px;
+    min-width: 90%;
 }

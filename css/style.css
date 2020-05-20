@@ -67,12 +67,14 @@ h2 {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 40px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 h3 {
     font-family: 'Shadows Into Light Two', cursive;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 p {
@@ -84,37 +86,9 @@ p {
     margin: 0 50px;
 }
 
-
-/*-----MENU-----*/
-.menu-tavle {
-    display: block;
-    margin: 0 auto;
-    width: 70%;
-    height: 70%;
-    background-color: black;
-    color: white;
-    font-family: 'Shadows Into Light Two', cursive;
-    line-height: 3em;
-    font-size: 20px
-}
-
-.menu-tabel {
-    min-width: 90%;
-}
-
-.specialiteter-indhold img {
-    width: 300px;
-}
-
-.orange-felt {
-    background-color: #f66d50;
-    color: white;
-}
-
-table {
-    width: 20%;
-    text-align: left;
-    margin: 0 50px;
+/*---- Forside -----*/
+.intro-video {
+    width: 100%;
 }
 
 /*-------anmeldelser------*/
@@ -137,7 +111,38 @@ table {
     margin: 0 auto;
 }
 
+/*-----MENU-----*/
+.menu-tavle {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    background-color: black;
+    color: white;
+    font-family: 'Shadows Into Light Two', cursive;
+    line-height: 3em;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
 
+.menu-tabel {
+    min-width: 90%;
+}
+
+.specialiteter-indhold img {
+    width: 300px;
+}
+
+.orange-felt {
+    background-color: #f66d50;
+    color: white;
+}
+
+table {
+    width: 20%;
+    text-align: left;
+    margin: 0 50px;
+}
 
 /*-----OM DITTES VERDEN-----*/
 
