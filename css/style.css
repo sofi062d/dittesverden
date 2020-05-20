@@ -186,7 +186,7 @@ a {
 
 }
 
-button {
+.kontaktmigknap {
     background-color: #f66d50;
     color: #FFFFFF;
     width: 30%;
@@ -401,7 +401,7 @@ footer {
         margin: 15px 90px;
     }
 
-    button {
+    .kontaktmigknap {
         margin: 15px 90px;
     }
 
