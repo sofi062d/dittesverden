@@ -16,3 +16,10 @@
     margin: 0 auto;
     display: block;
 }
+
+.slideshow button {
+    width: 25%;
+    border: none;
+
+
+}

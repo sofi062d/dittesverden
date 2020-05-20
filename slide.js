@@ -21,7 +21,7 @@ function gaaTilbage() {
 }
 
 // ------- Hovedprogram ---------
-const billedliste = ["kolo.png", "blomst.png", "ditte-kolo.png", "havelaage.png", "kolo-udestue.png", "stole.png"];
+const billedliste = ["images/kolo.png", "images/blomst.png", "images/ditte-kolo.png", "images/havelaage.png", "images/kolo-udestue.png", "images/stole.png"];
 let billedIndeks = 0;
 
 document.getElementById("frem").addEventListener("click", function () {
