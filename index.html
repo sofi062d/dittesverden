@@ -47,85 +47,97 @@
     </header>
 
     <main>
+        <br>
         <h1>Velkommen til Dittes Verden</h1>
+        <br>
         <!--INTROVIDEO-->
 
         <video autoplay loop muted controls class="intro-video" id="intro">
             <source src="video/dittes-verden-introvideo.mp4" type="video/mp4">
         </video>
 
-        <div class="flex-container">
-            <div class="calendar light">
-                <div class="calendar_header">
-                    <h1 class="header_title">Aktivitetskalender</h1>
-                </div>
-                <div class="calendar_plan">
-                    <div class="cl_plan">
-                        <div class="cl_title">I dag</div>
-                        <div class="cl_copy" id="kalender1"></div>
-                        <div class="cl_add">
-                            <i class="fas fa-plus"></i>
+        <section>
+            <div class="flex-container">
+                <div class="calendar light">
+                    <div class="calendar_header">
+                        <h1 class="header_title">Aktivitetskalender</h1>
+                    </div>
+                    <div class="calendar_plan">
+                        <div class="cl_plan">
+                            <div class="cl_title">I dag</div>
+                            <div class="cl_copy" id="kalender1"></div>
+                            <div class="cl_add">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                     </div>
+                    <div class="calendar_events">
+                        <p class="ce_title">Kommende aktiviteter</p>
+                        <div class="event_item">
+                            <div class="ei_Dot dot_active"></div>
+                            <div class="ei_Title">Torsdag d. 21. maj</div>
+                            <div class="ei_Copy">Afhentning af mad</div>
+                        </div>
+                        <div class="event_item">
+                            <div class="ei_Dot"></div>
+                            <div class="ei_Title">Torsdag d. 28. maj</div>
+                            <div class="ei_Copy">Afhentning af mad</div>
+                        </div>
+                        <div class="event_item">
+                            <div class="ei_Dot"></div>
+                            <div class="ei_Title">Torsdag d. 4. juni</div>
+                            <div class="ei_Copy">Afhentning af mad</div>
+                        </div>
+                        <div class="event_item">
+                            <div class="ei_Dot"></div>
+                            <div class="ei_Title">Torsdag d. 11. juni</div>
+                            <div class="ei_Copy">Afhentning af mad</div>
+                        </div>
+                        <div class="event_item">
+                            <div class="ei_Dot"></div>
+                            <div class="ei_Title">Torsdag d. 18. juni</div>
+                            <div class="ei_Copy">Afhentning af mad</div>
+                        </div>
+                        <a href="kurser-og-arrangementer.html"><button class="forsideknapper">Læs mere</button></a>
+                    </div>
                 </div>
-                <div class="calendar_events">
-                    <p class="ce_title">Kommende aktiviteter</p>
-                    <div class="event_item">
-                        <div class="ei_Dot dot_active"></div>
-                        <div class="ei_Title">Torsdag d. 21. maj</div>
-                        <div class="ei_Copy">Afhentning af mad</div>
-                    </div>
-                    <div class="event_item">
-                        <div class="ei_Dot"></div>
-                        <div class="ei_Title">Torsdag d. 28. maj</div>
-                        <div class="ei_Copy">Afhentning af mad</div>
-                    </div>
-                    <div class="event_item">
-                        <div class="ei_Dot"></div>
-                        <div class="ei_Title">Torsdag d. 4. juni</div>
-                        <div class="ei_Copy">Afhentning af mad</div>
-                    </div>
-                    <div class="event_item">
-                        <div class="ei_Dot"></div>
-                        <div class="ei_Title">Torsdag d. 11. juni</div>
-                        <div class="ei_Copy">Afhentning af mad</div>
-                    </div>
-                    <div class="event_item">
-                        <div class="ei_Dot"></div>
-                        <div class="ei_Title">Torsdag d. 18. juni</div>
-                        <div class="ei_Copy">Afhentning af mad</div>
-                    </div>
+
+                <div class="menu-tavle-forside">
+                    <h2>Ugens menu</h2>
+                    <table class="menu-tabel">
+                        <tr style="font-size: 40px">
+                            <th><u>Torsdag d. 4 juni</u></th>
+                        </tr>
+                        <tr>
+                            <td>Grøntsagsdeller med linsemel, soltørret tomater og oliven</td>
+                            <td>8 stk 50,-</td>
+                        </tr>
+                        <tr>
+                            <td>Pasta salat med bl. a. sorte bønner, bagte rødbeder og græskarkerner </td>
+                            <td>35,-</td>
+                        </tr>
+                        <tr>
+                            <td>Knækbrød med linsemel og kerner</td>
+                            <td>20,-</td>
+                        </tr>
+                        <tr>
+                            <td>Kikærte nutella med dadler og nødder</td>
+                            <td>30,-</td>
+                        </tr>
+
+                        <tr>
+                            <td>Der vil hver torsdag være bagværk.
+                                Eksempler er grovboller, knækbrød, og kage.</td>
+                        </tr>
+                        <tr>
+                            <th><a href="menu.html"><button class="forsideknapper">Bestil her</button></a></th>
+                        </tr>
+                    </table>
+
                 </div>
-            </div>
-
-            <div class="menu-tavle2">
-                <table class="menu-tabel">
-                    <tr>
-                        <td>Grøntsagsdeller med linsemel, soltørret tomater og oliven</td>
-                        <td>8 stk 50,-</td>
-                    </tr>
-                    <tr>
-                        <td>Pasta salat med bl. a. sorte bønner, bagte rødbeder og græskarkerner </td>
-                        <td>35,-</td>
-                    </tr>
-                    <tr>
-                        <td>Knækbrød med linsemel og kerner</td>
-                        <td>20,-</td>
-                    </tr>
-                    <tr>
-                        <td>Kikærte nutella med dadler og nødder</td>
-                        <td>30,-</td>
-                    </tr>
-
-                    <tr>
-                        <td>Der vil hver torsdag være bagværk.
-                            Eksempler er grovboller, knækbrød, og kage.</td>
-                    </tr>
-                </table>
 
             </div>
-
-        </div>
+        </section>
 
 
         <br>
@@ -188,6 +200,4 @@
     <script src="js.js"></script>
     <script src="kalender.js"></script>
     <script src="slide.js"></script>
-</body>
-
-</html>
+</body></html>

@@ -33,7 +33,7 @@ header {
 .main-nav {
     display: flex;
     overflow: hidden;
-    background-color: #E07751;
+    background-color: #f66d50;
     margin-right: .5em;
 }
 
@@ -83,7 +83,6 @@ p {
 
 .venstre-centreret {
     text-align: left;
-    margin: 0 50px;
 }
 
 /*---- Forside -----*/
@@ -91,7 +90,6 @@ p {
     width: 100%;
 }
 
-/*-------anmeldelser------*/
 .anmeldelser {
     background-color: #f66d50;
     color: white;
@@ -138,11 +136,24 @@ p {
     color: white;
 }
 
-table {
-    width: 20%;
-    text-align: left;
-    margin: 0 50px;
+.fast-sortiment-container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 50px;
 }
+
+.fast-sortiment-container div {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sortiment-tabel {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    text-align: left;
+
+}
+
 
 /*-----OM DITTES VERDEN-----*/
 
@@ -150,13 +161,7 @@ a {
     text-decoration: none;
 }
 
-.omkonceptet,
-.omlinser {
-    background-color: #E07751;
-    color: whitesmoke;
-
-}
-
+/*
 .omdittesverden h1,
 .omdittesverden p,
 .omdittesverden blockquote {
@@ -173,12 +178,13 @@ a {
     display: block;
     margin: 0 auto;
 }
+*/
 
 .portraet {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 50%;
 }
 
+/*
 .omditte h1 {
     margin-bottom: 5px;
     padding-top: 20px;
@@ -190,7 +196,7 @@ a {
     font-size: 1.2em;
 
 }
-
+*/
 .kontaktmigknap {
     background-color: #f66d50;
     color: #FFFFFF;
@@ -199,19 +205,14 @@ a {
     display: block;
     margin: 0 auto;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
-.omkonceptet img {
-    width: 30%;
-    float: right;
+.omkontekst img {
+    width: 40%;
     shape-outside: border-box;
     margin-top: -33%;
-}
-
-.widthp {
-    width: 65%;
-    padding-bottom: 20px;
+    float: right;
 }
 
 .mission img {
@@ -222,13 +223,7 @@ a {
     margin-top: 30px;
 }
 
-.omlinser img {
-    width: 30%;
-
-}
-
-/*KAN IKKE FÅ TIL AT VIRKE!*/
-.omdittesverden h4 {
+h4 {
     font-family: 'Open Sans', sans-serif;
     display: block;
     margin: 0 auto;
@@ -278,14 +273,11 @@ a {
     border-radius: 5px;
     background-color: rgb(248, 180, 157);
     padding: 20px;
-    max-width: 70%;
-    display: block;
-    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 30px;
 }
 
-#oplysninger {
-    text-align: center;
-}
+
 
 
 /*-----------FOOTER------------*/
@@ -328,11 +320,33 @@ footer {
         font-size: 20px
     }
 
-    p {
-        margin: 0 20px;
+    section {
+        margin: 0 25px;
+    }
+
+    .orange-felt {
+        padding: 0 25px;
     }
 
     /*------MENU------*/
+
+    .menu-tavle {
+        display: block;
+        margin: 0 auto;
+        width: 460px;
+        height: 820px;
+        background-color: black;
+        color: white;
+        font-family: 'Shadows Into Light Two', cursive;
+        line-height: 3em;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .menu-tabel td {
+        padding-left: 20px;
+    }
+
     .specialiteter-indhold {
         display: block;
         width: 70%;
@@ -341,6 +355,24 @@ footer {
         text-align: center;
     }
 
+    .sortiment-billeder img {
+        display: none;
+    }
+
+    /*---- OM DITTES VERDEN -----*/
+    .halvkilo,
+    .etkilo,
+    .tokilo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    .linserprodukter img {
+        margin: 10px;
+        width: 200px;
+    }
 }
 
 
@@ -376,13 +408,35 @@ footer {
         display: none;
     }
 
-    p {
-        margin: 0 50px;
+    section {
+        margin: 0 70px;
+    }
+
+    .orange-felt {
+        padding: 0 70px;
     }
 
 
-
     /*-----MENU-----*/
+    .menu-tavle {
+        display: block;
+        margin: 0 auto;
+        width: 620px;
+        height: 580px;
+        background-color: black;
+        color: white;
+        font-family: 'Shadows Into Light Two', cursive;
+        line-height: 3em;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    /*
+    .menu-tabel td {
+        padding-left: 20px;
+    }
+    */
+
     .specialiteter-container {
         display: flex;
         flex-direction: row;
@@ -395,16 +449,23 @@ footer {
         text-align: center;
     }
 
+    .sortiment-billeder img {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 70px;
+    }
 
 
     /*-----OM DITTES VERDEN-----*/
-
+    /*
     .omdittesverden h1,
     .omdittesverden p,
     .omdittesverden blockquote {
         text-align: left;
         margin: 15px 90px;
     }
+    */
 
     .kontaktmigknap {
         margin: 15px 90px;
@@ -426,7 +487,7 @@ footer {
     }
 
     .omkontekst,
-    .omkonceptet img {
+    .linsehaand {
         display: flex;
         flex-direction: row;
     }
@@ -436,11 +497,12 @@ footer {
         width: 70%;
     }
 
-    .omkonceptet img {
+    .linsehaand {
         float: none;
-        width: 50%;
+        width: 20%;
         margin-right: 0;
     }
+
 
     .mission {
         display: flex;
@@ -496,15 +558,35 @@ footer {
         display: none;
     }
 
-    p {
-        margin: 0 50px;
-    }
-
-    main {
+    section {
         margin: 0 200px;
     }
 
+    .orange-felt {
+        padding: 0 200px;
+    }
+
+
+
+
     /*-----MENU-----*/
+    .menu-tavle {
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+        height: 500px;
+        background-color: black;
+        color: white;
+        font-family: 'Shadows Into Light Two', cursive;
+        line-height: 3em;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .menu-tabel td {
+        padding-left: 20px;
+    }
+
     .specialiteter-container {
         display: flex;
         flex-direction: row;
@@ -515,6 +597,13 @@ footer {
     .specialiteter-indhold {
         width: 400px;
         text-align: center;
+    }
+
+    .sortiment-billeder img {
+        width: 46%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
     }
 
 

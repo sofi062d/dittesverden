@@ -116,21 +116,95 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
     justify-content: space-between;
 }
 
-/*Menu-tavle*/
-.menu-tavle2 {
-    max-width: 60%;
-    height: 40%;
-    background-color: black;
-    color: white;
-    font-family: 'Shadows Into Light Two', cursive;
-    line-height: 3em;
-    font-size: 20px;
-    letter-spacing: 2px;
+
+
+
+/*MEDIA QUERY MOBILE*/
+
+@media all and (max-width: 599px) {
+    .menu-tavle-forside {
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: 'Shadows Into Light Two', cursive;
+        line-height: 3em;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .forsideknapper {
+        display: block;
+        margin: 0 auto;
+        background-color: #f66d50;
+        color: #FFFFFF;
+        width: 120px;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+    }
 }
 
-.menu-tabel {
-    min-width: 90%;
+/*MEDIA QUERY TABLET AND ABOVE*/
+
+@media all and (min-width: 600px) {
+    section {
+        margin: 0 80px;
+    }
+
+    .menu-tavle-forside {
+        width: 500px;
+        background-color: black;
+        color: white;
+        font-family: 'Shadows Into Light Two', cursive;
+        line-height: 3em;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .forsideknapper {
+        display: block;
+        margin: 0 auto;
+        background-color: #f66d50;
+        color: #FFFFFF;
+        width: 200px;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+/*MEDIA QUERY LAPTOP AND ABOVE*/
+
+@media all and (min-width: 1024px) {
+    section {
+        margin: 0 200px;
+    }
+
+    .menu-tavle-forside {
+        max-width: 60%;
+        background-color: black;
+        color: white;
+        font-family: 'Shadows Into Light Two', cursive;
+        line-height: 3em;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .forsideknapper {
+        display: block;
+        margin: 0 auto;
+        background-color: #f66d50;
+        color: #FFFFFF;
+        width: 200px;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+    }
 }
