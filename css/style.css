@@ -417,6 +417,8 @@ footer {
     }
 
 
+
+
     /*-----MENU-----*/
     .menu-tavle {
         display: block;
@@ -458,14 +460,7 @@ footer {
 
 
     /*-----OM DITTES VERDEN-----*/
-    /*
-    .omdittesverden h1,
-    .omdittesverden p,
-    .omdittesverden blockquote {
-        text-align: left;
-        margin: 15px 90px;
-    }
-    */
+
 
     .kontaktmigknap {
         margin: 15px 90px;
@@ -486,8 +481,7 @@ footer {
         margin-right: 10%;
     }
 
-    .omkontekst,
-    .linsehaand {
+    .omkoncept {
         display: flex;
         flex-direction: row;
     }
@@ -499,10 +493,12 @@ footer {
 
     .linsehaand {
         float: none;
-        width: 20%;
-        margin-right: 0;
+        width: 50%;
     }
 
+    .omkoncept img {
+        padding-right: -70px;
+    }
 
     .mission {
         display: flex;
