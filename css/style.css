@@ -161,42 +161,10 @@ a {
     text-decoration: none;
 }
 
-/*
-.omdittesverden h1,
-.omdittesverden p,
-.omdittesverden blockquote {
-    text-align: left;
-    margin: 15px 50px;
-}
-
-.omdittesverden h1 {
-    padding-top: 20px;
-}
-
-.omdittesverden img {
-    width: 60vw;
-    display: block;
-    margin: 0 auto;
-}
-*/
-
 .portraet {
     width: 50%;
 }
 
-/*
-.omditte h1 {
-    margin-bottom: 5px;
-    padding-top: 20px;
-    font-size: 5em;
-}
-
-.omditte blockquote {
-    font-style: oblique;
-    font-size: 1.2em;
-
-}
-*/
 .kontaktmigknap {
     background-color: #f66d50;
     color: #FFFFFF;
@@ -208,11 +176,22 @@ a {
     border-radius: 5px;
 }
 
-.omkontekst img {
+
+.omkoncept img {
     width: 40%;
     shape-outside: border-box;
-    margin-top: -33%;
+    margin-top: -20px;
     float: right;
+}
+
+.omkoncept {
+    padding-bottom: 160px;
+}
+
+.orange-felt-koncept {
+    background-color: #f66d50;
+    color: white;
+    padding-bottom: 1em;
 }
 
 .mission img {
@@ -360,6 +339,12 @@ footer {
     }
 
     /*---- OM DITTES VERDEN -----*/
+
+    .orange-felt-koncept {
+        padding: 0 25px;
+    }
+
+
     .halvkilo,
     .etkilo,
     .tokilo {
@@ -481,23 +466,29 @@ footer {
         margin-right: 10%;
     }
 
+
+
     .omkoncept {
         display: flex;
         flex-direction: row;
+        padding-bottom: 0;
+
     }
 
+    /*I stedet for orange-felt-koncept*/
     .omkontekst {
         flex-direction: column;
         width: 70%;
+        padding-left: 70px;
     }
 
-    .linsehaand {
-        float: none;
-        width: 50%;
-    }
+
 
     .omkoncept img {
-        padding-right: -70px;
+        padding-right: 0;
+        width: 40%;
+        float: none;
+
     }
 
     .mission {
@@ -602,6 +593,10 @@ footer {
         padding-left: 100px;
     }
 
+    /*------OM DITTES VERDEN------*/
+    .omkontekst {
+        padding-left: 200px;
+    }
 
 
 
