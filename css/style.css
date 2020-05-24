@@ -110,6 +110,7 @@ p {
 }
 
 /*-----MENU-----*/
+
 .menu-tavle {
     display: block;
     margin: 0 auto;
@@ -153,6 +154,67 @@ p {
     text-align: left;
 
 }
+
+
+
+/*-----KURSER OG ARRANGEMENTER-----*/
+
+
+.aktiviteter-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.aktiviteter-container img {
+    width: 250px;
+    height: 250px;
+}
+
+
+.tekst-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.tekst-container h3 {
+    text-align: start;
+}
+
+.pris {
+    font-style: italic;
+}
+
+/*-----OPSKRIFTER-----*/
+
+.opskrift-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.opskrift-container ul li {
+    list-style-type: none;
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+.opskrift-container h2 {
+    text-align: start;
+}
+
+.opskrift-container ul a {
+    color: #f66d50;
+}
+
+.opskrift-container img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
 
 
 /*-----OM DITTES VERDEN-----*/
