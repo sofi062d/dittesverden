@@ -177,7 +177,7 @@ p {
 
 /*-----KURSER OG ARRANGEMENTER-----*/
 
-
+/*
 .aktiviteter-container {
     display: flex;
     flex-direction: row;
@@ -189,9 +189,10 @@ p {
     padding-top: 75px;
 }
 
-.aktivitet-tekst {
-    text-align: center;
+.tekst-container h3 {
+    text-align: start;
 }
+*/
 
 .aktivitetskalender {
     display: block;
@@ -199,14 +200,8 @@ p {
     width: 50%;
 }
 
-.tekst-container {
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-}
-
-.tekst-container h3 {
-    text-align: start;
+.aktivitet-tekst {
+    text-align: center;
 }
 
 .pris {
@@ -222,6 +217,18 @@ p {
     padding: 10px;
     border-radius: 5px;
 }
+
+
+.langbordimggrid,
+.markimggrid,
+.burgerimggrid,
+.dellerimggrid {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
 
 
 /*-----OPSKRIFTER-----*/
@@ -523,6 +530,9 @@ footer h3 {
     /*---Kurser og arrangementer---*/
 
 
+
+
+
     /*---- OM DITTES VERDEN -----*/
 
     .orange-felt-koncept {
@@ -632,6 +642,63 @@ footer h3 {
         flex-direction: column;
         padding-left: 70px;
     }
+
+
+
+    /*---Kurser og arrangementer---*/
+    .grid {
+        display: grid;
+        grid-area: 1/1/5/3;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(5, auto);
+        width: 100%;
+        height: auto;
+        grid-gap: 50px;
+    }
+
+    .langbordtekstgrid {
+        grid-area: 1/1/2/2;
+    }
+
+    .langbordimggrid {
+        grid-area: 1/2/2/3;
+        width: 90%;
+    }
+
+    .marktekstgrid {
+        grid-area: 2/2/3/3;
+
+    }
+
+    .markimggrid {
+        grid-area: 2/1/3/2;
+        width: 90%;
+    }
+
+    .burgertekstgrid {
+        grid-area: 3/1/4/2;
+
+    }
+
+    .burgerimggrid {
+        grid-area: 3/2/4/3;
+        width: 90%;
+    }
+
+    .dellertekstgrid {
+        grid-area: 4/2/5/3;
+        width: 100%;
+
+    }
+
+    .dellerimggrid {
+        grid-area: 4/1/5/2;
+        width: 90%;
+    }
+
+
+
+
 
 
     /*-----OM DITTES VERDEN-----*/
@@ -782,6 +849,15 @@ footer h3 {
         flex-direction: column;
         padding-left: 100px;
     }
+
+
+
+
+
+
+
+
+
 
     /*------OM DITTES VERDEN------*/
     .omkontekst {
