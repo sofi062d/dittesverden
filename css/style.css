@@ -177,23 +177,6 @@ p {
 
 /*-----KURSER OG ARRANGEMENTER-----*/
 
-/*
-.aktiviteter-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.aktiviteter-container img {
-    width: 350px;
-    height: 350px;
-    padding-top: 75px;
-}
-
-.tekst-container h3 {
-    text-align: start;
-}
-*/
-
 .aktivitetskalender {
     display: block;
     margin: 0 auto;
