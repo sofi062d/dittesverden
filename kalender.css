@@ -4,16 +4,14 @@
     background-color: #fff;
 }
 
-.dark {
-    margin-left: 65px;
-}
-
 .calendar {
     width: 370px;
     box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
     padding: 20px 30px;
     color: #363b41;
     display: inline-block;
+    margin: 0 auto;
+    margin-top: 5%;
 }
 
 .calendar_header {
@@ -101,18 +99,6 @@
     margin-left: 27px;
 }
 
-.dark {
-    background-image: linear-gradient(-222deg, #646464, #454545);
-    color: #fff;
-
-    .header_title,
-    .ei_Title,
-    .ce_title {
-        color: #fff;
-    }
-
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -146,8 +132,9 @@
         text-align: center;
         padding: 10px;
         border-radius: 5px;
-
+        border: none;
     }
+
 }
 
 /*MEDIA QUERY TABLET AND ABOVE*/
@@ -178,6 +165,10 @@
         padding: 10px;
         border: none;
         border-radius: 5px;
+    }
+
+    .calendar {
+        margin-top: 0%;
     }
 }
 
