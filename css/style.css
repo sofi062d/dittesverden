@@ -434,6 +434,7 @@ footer h3 {
 @media all and (max-width: 599px) {
     header {
         display: block;
+        background-size: 60%;
     }
 
     #burger-menu {
@@ -457,7 +458,8 @@ footer h3 {
     .main-nav a {
         text-align: center;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
-        font-size: 20px
+        font-size: 20px;
+        padding: 5px;
     }
 
     section {
@@ -473,6 +475,11 @@ footer h3 {
     .intro-video {
         width: 100%;
         height: auto;
+    }
+
+    .flex-anmeld {
+        display: flex;
+        flex-direction: column;
     }
 
     /*------MENU------*/
@@ -497,11 +504,33 @@ footer h3 {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 20px;
         text-align: center;
+    }
+
+    .fast-sortiment-container {
+        margin: 0;
     }
 
     .sortiment-billeder img {
         display: none;
+    }
+
+    /*----KURSER OG ARRANGEMENTER----*/
+    .aktivitetskalender {
+        width: 100%;
+    }
+
+    .langbordimggrid {
+        padding-top: 30px;
+    }
+
+    .burgerimggrid {
+        padding-top: 30px;
+    }
+
+    .dellerimggrid {
+        padding-top: 30px;
     }
 
 
@@ -527,7 +556,7 @@ footer h3 {
 
 
     footer h3 {
-        font-size: 14px;
+        font-size: 17px;
     }
 
 }
