@@ -5,21 +5,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- HUSK UNIK TITLE TIL ALLE SIDER -->
-    <title></title>
+    <title>Dittes Verden - Menu</title>
     <!-- Husk en beskrivelse af siden i content-->
     <meta name="description" content="">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+    <!-- Hotjar Tracking Code for http://www.sandrabirkefeldt.dk/dittes-verden/index.html -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 1830880,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
 </head>
 
 <body>
 
 
-    <!-------------------------------HEADER------------------------------->
+    <!--HEADER-->
 
 
     <header>
-
+        <!--Navigation er lavet med inspiration fra: https://github.com/itaddiction/flexnav, www.w3school.com og egen kunnen-->
         <div id="logo">
             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             <label id="burger-menu" for="toggle">&#9776;</label>
@@ -69,7 +87,7 @@
                 </table>
             </div>
 
-            <h3>Husk! <br>Det er altid muligt at købe vores faste sortiment ved afhenting.</h3>
+            <h3>Husk! <br>Det er altid muligt at købe vores faste sortiment ved afhentning.</h3>
         </section>
 
         <br>
@@ -99,9 +117,8 @@
 
         <div class="orange-felt">
             <h2>Emballage</h2>
-            <p><i>
-                    <center>Tænk på miljøet og undgå unødig emballage!</center>
-                </i></p> <br>
+            <p style="font-style: italic; text-align: center;">Tænk på miljøet og undgå unødig emballage!</p>
+            <br>
 
             <p>Medbring gerne egne bøtter til salat, så vi sammen kan spare på engangsemballagen.
                 Hvis du har konservesglas (i alle størrelser) i overskud, tager vi gerne imod dem. De vil passe perfekt, når vi fx skal lave hummus, syltede agurker eller chutney. Så tænk gerne på os, inden du smider dine i glas ud.
@@ -200,13 +217,13 @@
             <br>
             <p>Vi tager gerne hensyn til allergener eller andre behov, såfremt I nævner det ved bestilling.</p> <br>
             <form id="kontakt-form">
-                <label for="name">Navn:</label>
+                <label for="navn">Navn:</label>
                 <input type="text" id="navn" name="firstname" placeholder="Skriv dit navn her...">
 
                 <label for="e-mail">E-mail:</label>
-                <input type="e-mail" id="e-mail" name="e-mail" placeholder="Skriv din e-mail her...">
+                <input type="email" id="e-mail" name="e-mail" placeholder="Skriv din e-mail her...">
 
-                <label for="subject">Bestilling:</label>
+                <label for="beskrivelse">Bestilling:</label>
                 <textarea id="beskrivelse" name="subject" placeholder="Skriv din bestilling her..." style="height:200px"></textarea>
 
                 <input id="send-knap" type="submit" value="Send">
@@ -225,9 +242,9 @@
         </h3>
 
         <br>
-        <a href="https://www.instagram.com/dittesverden1/"><img src="images/instagram.png" alt="Instagram" width="60px"></a>
-        <a href="https://www.facebook.com/dittesverden1/"><img src="images/facebook.png" alt="Facebook" width="60px"></a>
-        <a href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk1742943"><img src="images/smiley.png" alt="egenkontrol" width="60px"></a>
+        <a href="https://www.instagram.com/dittesverden1/"><img src="images/instagram.png" alt="Instagram" width="60"></a>
+        <a href="https://www.facebook.com/dittesverden1/"><img src="images/facebook.png" alt="Facebook" width="60"></a>
+        <a href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk1742943"><img src="images/smiley.png" alt="egenkontrol" width="60"></a>
         <br>
         <br>
     </footer>
@@ -235,6 +252,4 @@
 
 
     <script src="js.js"></script>
-</body>
-
-</html>
+</body></html>

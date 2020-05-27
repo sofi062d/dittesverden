@@ -5,25 +5,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- HUSK UNIK TITLE TIL ALLE SIDER -->
-    <title></title>
+    <title>Dittes Verden</title>
     <!-- Husk en beskrivelse af siden i content-->
     <meta name="description" content="">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="kalender.css">
-    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="css/kalender.css">
+    <link rel="stylesheet" href="css/slide.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+    <!-- Hotjar Tracking Code for http://www.sandrabirkefeldt.dk/dittes-verden/index.html -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 1830880,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
 
 </head>
 
 <body>
 
 
-    <!-------------------------------HEADER------------------------------->
+    <!--HEADER-->
 
 
     <header>
-
+        <!--Navigation er lavet med inspiration fra: https://github.com/itaddiction/flexnav, www.w3school.com og egen kunnen-->
         <div id="logo">
             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             <label id="burger-menu" for="toggle">&#9776;</label>
@@ -48,7 +66,6 @@
 
     <main>
         <!--INTROVIDEO-->
-
         <video autoplay loop muted controls class="intro-video" id="intro">
             <source src="video/dittes-verden-introvideo.mp4" type="video/mp4">
         </video>
@@ -85,10 +102,9 @@
                             <td>10,-</td>
                         </tr>
                         <tr>
-                            <th><a href="menu.html"><button class="menu-knap" id="bestilherknap">Bestil her</button></a></th>
+                            <th><button class="menu-knap" type="button" onclick="window.location.href= 'menu.html';">Læs mere</button></th>
                         </tr>
                     </table>
-
                 </div>
 
                 <div class="calendar light">
@@ -131,7 +147,8 @@
                             <div class="ei_Title">Torsdag d. 4. juni</div>
                             <div class="ei_Copy">Afhentning af mad</div>
                         </div>
-                        <a href="kurser-og-arrangementer.html"><button class="kalender-knap">Læs mere</button></a>
+                        <button class="kalender-knap" type="button" onclick="window.location.href= 'kurser-og-arrangementer.html';">Læs mere</button>
+
                     </div>
                 </div>
 
@@ -145,30 +162,30 @@
             <h2>Hvad siger vores kunder?</h2>
             <div class="flex-anmeld">
                 <div>
-                    <img src="images/citationstegn.png" alt="Citationstegn" width="10%">
+                    <img src="images/citationstegn.png" alt="Citationstegn" width="40">
                     <br><br>
                     <p>Ditte har så meget styr på madlavningen, og man fornemmer tydeligt, at der er langt en masse kærligheden i arbejdet.</p>
                     <br>
-                    <img src="images/stjerner.png" alt="Fem stjerner som anmeldelse" width="30%">
+                    <img src="images/stjerner.png" alt="Fem stjerner som anmeldelse" width="100">
                     <br><br>
                     <p>Mathias, 32 år <br> Århus</p>
                 </div>
                 <br>
                 <div>
-                    <img src="images/citationstegn.png" alt="Citationstegn" width="10%">
+                    <img src="images/citationstegn.png" alt="Citationstegn" width="40">
                     <br><br>
                     <p>Det smager fantastisk, er sundt og miljøvenligt. Hyggeligt at hente i kolonihaven, og så er det lækkert med smagsprøver.</p>
                     <br>
-                    <img src="images/stjerner.png" alt="Fem stjerner som anmeldelse" width="30%">
+                    <img src="images/stjerner.png" alt="Fem stjerner som anmeldelse" width="100">
                     <br><br>
                     <p>Una, 64 år <br>Skødstrup </p>
                 </div>
                 <br>
                 <div>
-                    <img src="images/citationstegn.png" alt="Citationstegn" width="10%">
+                    <img src="images/citationstegn.png" alt="Citationstegn" width="30">
                     <br><br>
                     <p>Maden er virkelig lækker. Jeg er nærmest blevet afhængig af Dittes linsedeller. Køber et lager hver torsdag, så jeg kan fryse dem og tage op løbende.</p> <br>
-                    <img src="images/stjerner.png" alt="Fem stjerner som anmeldelse" width="30%">
+                    <img src="images/stjerner.png" alt="Fem stjerner som anmeldelse" width="100">
                     <br><br>
                     <p>Line, 41 år <br> Brabrand</p>
                     <br>
@@ -197,9 +214,9 @@
         </h3>
 
         <br>
-        <a href="https://www.instagram.com/dittesverden1/"><img src="images/instagram.png" alt="Instagram" width="60px"></a>
-        <a href="https://www.facebook.com/dittesverden1/"><img src="images/facebook.png" alt="Facebook" width="60px"></a>
-        <a href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk1742943"><img src="images/smiley.png" alt="egenkontrol" width="60px"></a>
+        <a href="https://www.instagram.com/dittesverden1/"><img src="images/instagram.png" alt="Instagram" width="60"></a>
+        <a href="https://www.facebook.com/dittesverden1/"><img src="images/facebook.png" alt="Facebook" width="60"></a>
+        <a href="https://www.findsmiley.dk/Sider/KontrolRapport.aspx?Virk1742943"><img src="images/smiley.png" alt="egenkontrol" width="60"></a>
         <br>
         <br>
     </footer>
