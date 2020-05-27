@@ -88,13 +88,6 @@ p {
 }
 
 /*----FORSIDE-----*/
-
-.intro-video {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
-}
-
 .anmeldelser {
     background-color: #f66d50;
     color: white;
@@ -294,6 +287,8 @@ p {
 
 .portraet {
     width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 .kontaktmigknap {
@@ -301,9 +296,8 @@ p {
     color: #FFFFFF;
     width: 30%;
     font-size: 130%;
-    display: block;
-    margin: 0 auto;
     padding: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -418,10 +412,7 @@ p {
 }
 
 
-
-
 /*-----------FOOTER------------*/
-
 
 footer {
     background: #EEE7E0;
@@ -476,6 +467,12 @@ footer h3 {
     .orange-felt {
         padding: 0 25px;
         padding-top: 5px;
+    }
+
+    /*---FORSIDE---*/
+    .intro-video {
+        width: 100%;
+        height: auto;
     }
 
     /*------MENU------*/
@@ -576,7 +573,11 @@ footer h3 {
         padding: 5px 70px;
     }
 
-
+    /*---FORSIDE---*/
+    .intro-video {
+        width: 100%;
+        height: auto;
+    }
 
 
     /*-----MENU-----*/
@@ -816,7 +817,12 @@ footer h3 {
         padding: 5px 200px;
     }
 
-
+    /*---FORSIDE---*/
+    .intro-video {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
 
     /*-----MENU-----*/
     .menu-tavle {

@@ -122,7 +122,20 @@
         letter-spacing: 2px;
     }
 
-    .forsideknapper {
+    .menu-knap {
+        display: block;
+        margin: 0 auto;
+        background-color: #f66d50;
+        color: #FFFFFF;
+        width: 120px;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .kalender-knap {
         display: block;
         margin: 0 auto;
         background-color: #f66d50;
@@ -154,7 +167,20 @@
         letter-spacing: 2px;
     }
 
-    .forsideknapper {
+    .menu-knap {
+        display: block;
+        margin: 0 auto;
+        background-color: #f66d50;
+        color: #FFFFFF;
+        width: 200px;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .kalender-knap {
         display: block;
         margin: 0 auto;
         background-color: #f66d50;
@@ -189,7 +215,20 @@
         letter-spacing: 2px;
     }
 
-    .forsideknapper {
+    .menu-knap {
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
+        background-color: #f66d50;
+        color: #FFFFFF;
+        width: 200px;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .kalender-knap {
         display: block;
         margin: 0 auto;
         background-color: #f66d50;
