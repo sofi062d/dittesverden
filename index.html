@@ -7,12 +7,13 @@
     <!-- HUSK UNIK TITLE TIL ALLE SIDER -->
     <title>Dittes Verden</title>
     <!-- Husk en beskrivelse af siden i content-->
-    <meta name="description" content="">
+    <meta name="description" content="Et univers fyldt med plamtebaseret mad, opskrifter, farver og fællesskab i Dittes kolonihave i Brabrand">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kalender.css">
     <link rel="stylesheet" href="css/slide.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <!-- Hotjar Tracking Code for http://www.sandrabirkefeldt.dk/dittes-verden/index.html -->
     <script>
@@ -59,8 +60,6 @@
             <a href="opskrifter.html">Opskrifter</a>
             <a href="om-dittes-verden.html">Om Dittes Verden</a>
             <a href="kontakt.html">Kontakt</a>
-
-
         </div>
 
     </header>
@@ -68,97 +67,96 @@
     <main>
         <!--INTROVIDEO-->
         <video autoplay loop muted controls class="intro-video" id="intro">
-            <source src="video/dittes-verden-introvideo.mp4" type="video/mp4">
+            <source src="video/dittes-verden-intro.mp4" type="video/mp4">
         </video>
 
-        <section>
 
-            <!--Kalender fundet: https://codepen.io/BradleyPJ/pen/LmpzNx-->
-            <div class="flex-container">
-                <div class="ugens-menu-forside">
-                    <h2>Ugens menu</h2>
-                    <br>
-                    <div class="menu-tavle-forside">
-                        <table class="menu-tabel">
-                            <tr style="font-size: 30px">
-                                <th class="venstre-centreret">Torsdag d. 4 juni
-                                    <hr>
-                                </th>
-                            </tr>
-                            <tr>
-                                <td>8 stk grøntsagsdeller med linsemel, soltørret tomater og oliven</td>
-                                <td>50,-</td>
-                            </tr>
-                            <tr>
-                                <td>Pastasalat med sorte bønner, bagte rødbeder og græskarkerner</td>
-                                <td>35,-</td>
-                            </tr>
-                            <tr>
-                                <td>Rødbedehummus</td>
-                                <td>25,-</td>
-                            </tr>
-                            <tr>
-                                <td>Hjemmelavet mayo med estragon</td>
-                                <td>25,-</td>
-                            </tr>
-                            <tr>
-                                <td>Grovbolle</td>
-                                <td>10,-</td>
-                            </tr>
-                            <tr>
-                                <th><button class="menu-knap" type="button" onclick="window.location.href= 'menu.html';">Bestil her</button></th>
-                            </tr>
-                        </table>
-                    </div>
+
+        <!--Kalender fundet: https://codepen.io/BradleyPJ/pen/LmpzNx-->
+        <div class="flex-container">
+            <div class="ugens-menu-forside">
+                <h2>Ugens menu</h2>
+                <br>
+                <div class="menu-tavle-forside">
+                    <table class="menu-tabel">
+                        <tr style="font-size: 30px">
+                            <th class="venstre-centreret">Torsdag d. 4 juni
+                                <hr>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>8 stk grøntsagsdeller med linsemel, soltørret tomater og oliven</td>
+                            <td>50,-</td>
+                        </tr>
+                        <tr>
+                            <td>Pastasalat med sorte bønner, bagte rødbeder og græskarkerner</td>
+                            <td>35,-</td>
+                        </tr>
+                        <tr>
+                            <td>Rødbedehummus</td>
+                            <td>25,-</td>
+                        </tr>
+                        <tr>
+                            <td>Hjemmelavet mayo med estragon</td>
+                            <td>25,-</td>
+                        </tr>
+                        <tr>
+                            <td>Grovbolle</td>
+                            <td>10,-</td>
+                        </tr>
+                        <tr>
+                            <th><button class="menu-knap" type="button" onclick="window.location.href= 'menu.html';">Bestil her</button></th>
+                        </tr>
+                    </table>
                 </div>
-
-                <div class="calendar light">
-                    <div class="calendar_header">
-                        <h1 class="header_title">Aktivitetskalender</h1>
-                    </div>
-                    <div class="calendar_plan">
-                        <div class="cl_plan">
-                            <div class="cl_title">I dag</div>
-                            <div class="cl_copy" id="kalender1"></div>
-                            <div class="cl_add">
-                                <i class="fas fa-plus"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="calendar_events">
-                        <p class="ce_title">Kommende aktiviteter</p>
-                        <div class="event_item">
-                            <div class="ei_Dot dot_active"></div>
-                            <div class="ei_Title">Torsdag d. 21. maj</div>
-                            <div class="ei_Copy">Afhentning af mad</div>
-                        </div>
-                        <div class="event_item">
-                            <div class="ei_Dot"></div>
-                            <div class="ei_Title">Lørdag d. 23. maj</div>
-                            <div class="ei_Copy">Markvandring på Samsø</div>
-                        </div>
-                        <div class="event_item">
-                            <div class="ei_Dot"></div>
-                            <div class="ei_Title">Torsdag d. 28. maj</div>
-                            <div class="ei_Copy">Afhentning af mad</div>
-                        </div>
-                        <div class="event_item">
-                            <div class="ei_Dot"></div>
-                            <div class="ei_Title">Tirsdag d. 2. juni</div>
-                            <div class="ei_Copy">Langbordsmiddag</div>
-                        </div>
-                        <div class="event_item">
-                            <div class="ei_Dot"></div>
-                            <div class="ei_Title">Torsdag d. 4. juni</div>
-                            <div class="ei_Copy">Afhentning af mad</div>
-                        </div>
-                        <button class="kalender-knap" type="button" onclick="window.location.href= 'kurser-og-arrangementer.html';">Læs mere</button>
-
-                    </div>
-                </div>
-
             </div>
-        </section>
+
+            <div class="calendar light">
+                <div class="calendar_header">
+                    <h1 class="header_title">Aktivitetskalender</h1>
+                </div>
+                <div class="calendar_plan">
+                    <div class="cl_plan">
+                        <div class="cl_title">I dag</div>
+                        <div class="cl_copy" id="kalender1"></div>
+                        <div class="cl_add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="calendar_events">
+                    <p class="ce_title">Kommende aktiviteter</p>
+                    <div class="event_item">
+                        <div class="ei_Dot dot_active"></div>
+                        <div class="ei_Title">Torsdag d. 21. maj</div>
+                        <div class="ei_Copy">Afhentning af mad</div>
+                    </div>
+                    <div class="event_item">
+                        <div class="ei_Dot"></div>
+                        <div class="ei_Title">Lørdag d. 23. maj</div>
+                        <div class="ei_Copy">Markvandring på Samsø</div>
+                    </div>
+                    <div class="event_item">
+                        <div class="ei_Dot"></div>
+                        <div class="ei_Title">Torsdag d. 28. maj</div>
+                        <div class="ei_Copy">Afhentning af mad</div>
+                    </div>
+                    <div class="event_item">
+                        <div class="ei_Dot"></div>
+                        <div class="ei_Title">Tirsdag d. 2. juni</div>
+                        <div class="ei_Copy">Langbordsmiddag</div>
+                    </div>
+                    <div class="event_item">
+                        <div class="ei_Dot"></div>
+                        <div class="ei_Title">Torsdag d. 4. juni</div>
+                        <div class="ei_Copy">Afhentning af mad</div>
+                    </div>
+                    <button class="kalender-knap" type="button" onclick="window.location.href= 'kurser-og-arrangementer.html';">Læs mere</button>
+
+                </div>
+            </div>
+
+        </div>
 
 
         <br>

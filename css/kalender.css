@@ -5,7 +5,6 @@
 }
 
 .calendar {
-    width: 500px;
     box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
     padding: 20px 30px;
     color: #363b41;
@@ -36,7 +35,6 @@
     color: #fff;
 }
 
-.cl_title {}
 
 .cl_copy {
     font-size: 20px;
@@ -93,9 +91,10 @@
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+
 }
 
 
@@ -104,10 +103,13 @@
 /*MEDIA QUERY MOBILE*/
 
 @media all and (max-width: 599px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .menu-tavle-forside {
         width: 100%;
-        display: block;
-        margin: 0 auto;
         background-color: black;
         color: white;
         font-family: 'Shadows Into Light Two', cursive;
@@ -130,8 +132,6 @@
     }
 
     .kalender-knap {
-        display: block;
-        margin: 0 auto;
         background-color: #f66d50;
         color: #FFFFFF;
         width: 140px;
@@ -140,6 +140,10 @@
         padding: 10px;
         border-radius: 5px;
         border: none;
+    }
+
+    .calendar {
+        width: 100%;
     }
 
 }
@@ -147,12 +151,11 @@
 /*MEDIA QUERY TABLET AND ABOVE*/
 
 @media all and (min-width: 600px) {
-    section {
-        margin: 0 80px;
-    }
+
 
     .menu-tavle-forside {
         width: 400px;
+        height: 780px;
         display: block;
         margin: 0 auto;
         background-color: black;
@@ -166,6 +169,7 @@
     .menu-knap {
         margin-left: 40px;
         margin-bottom: 20px;
+        margin-top: 30px;
         background-color: #f66d50;
         color: #FFFFFF;
         width: 200px;
@@ -190,33 +194,17 @@
     }
 
     .calendar {
-        margin-top: 0;
         width: 400px;
+        margin-top: 80px;
     }
 }
 
 /*MEDIA QUERY LAPTOP AND ABOVE*/
 
 @media all and (min-width: 1024px) {
-    section {
-        margin: 0 200px;
-    }
-
-    .menu-tavle-forside {
-        width: 60%;
-        background-color: black;
-        color: white;
-        font-family: 'Shadows Into Light Two', cursive;
-        line-height: 3em;
-        font-size: 20px;
-        letter-spacing: 2px;
-        display: block;
-        margin: 0 auto;
-    }
 
     .menu-knap {
         margin-left: 40px;
-        margin-top: 100px;
         margin-bottom: 20px;
         background-color: #f66d50;
         color: #FFFFFF;
@@ -230,6 +218,7 @@
     .kalender-knap {
         display: block;
         margin: 0 auto;
+        margin-top: 50px;
         background-color: #f66d50;
         color: #FFFFFF;
         width: 200px;
@@ -240,7 +229,7 @@
     }
 
     .calendar {
-        width: auto;
+        margin: 0;
     }
 
 }

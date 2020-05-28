@@ -67,7 +67,7 @@ header {
 h1,
 h2 {
     font-family: 'Shadows Into Light Two', cursive;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     letter-spacing: 2px;
 }
@@ -91,6 +91,7 @@ p {
 .anmeldelser {
     background-color: #f66d50;
     color: white;
+    margin-bottom: 20px;
 }
 
 .flex-anmeld {
@@ -102,6 +103,7 @@ p {
 
 .flex-anmeld div {
     width: 60%;
+    padding: 10px 0 10px 0;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -158,6 +160,7 @@ p {
 .fast-sortiment-container div {
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .sortiment-tabel {
@@ -380,7 +383,7 @@ p {
     box-sizing: border-box;
 }
 
-input[type=submit] {
+.knap {
     width: 120px;
     height: 50px;
     font-size: 15px;
@@ -393,8 +396,8 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #f66d50;
+.knap:hover {
+    background-color: #EEE7E0;
 }
 
 #kontakt-form {
@@ -409,6 +412,7 @@ iframe {
     width: 100%;
     height: 450px;
     border: 0;
+    padding-bottom: 20px;
 }
 
 
@@ -541,6 +545,14 @@ footer h3 {
         padding: 0 25px;
     }
 
+    .omkoncept img {
+        display: none;
+    }
+
+    .omkoncept {
+        padding: 5px 0 10px 0;
+    }
+
     .halvkilo,
     .etkilo,
     .tokilo {
@@ -635,6 +647,11 @@ footer h3 {
         width: 25%;
         margin-left: 20px;
         margin-right: 20px;
+        text-align: center;
+    }
+
+    .fast-sortiment-container {
+        margin: 0;
     }
 
     .sortiment-billeder img {
@@ -647,6 +664,14 @@ footer h3 {
 
 
     /*---Kurser og arrangementer---*/
+    .aktivitetskalender {
+        width: 80%;
+    }
+
+    .gridkurser h2 {
+        margin: 0;
+    }
+
     .gridkurser {
         display: grid;
         grid-area: 1/1/5/3;
@@ -706,11 +731,14 @@ footer h3 {
         width: 100%;
         height: auto;
         grid-gap: 50px;
+
     }
 
     .vrettergrid {
         grid-area: 1/1/2/2;
+        padding-left: 0;
     }
+
 
     .vrettergridimg {
         grid-area: 1/2/2/3;
@@ -722,7 +750,6 @@ footer h3 {
 
     .bagvaerkgridimg {
         grid-area: 2/1/3/2;
-        width: 90%;
     }
 
     .snacksgrid {
@@ -731,10 +758,12 @@ footer h3 {
 
     .snacksgridimg {
         grid-area: 3/2/4/3;
+
     }
 
     .gridopskrifter img {
         width: 90%;
+
     }
 
 
@@ -783,8 +812,10 @@ footer h3 {
 
     .omkoncept img {
         padding-right: 0;
-        width: 40%;
+        width: 30%;
+        height: 300px;
         float: none;
+        padding-top: 80px;
     }
 
     .mission {
@@ -896,6 +927,12 @@ footer h3 {
 
     .omkontekst {
         padding-left: 200px;
+    }
+
+    .omkoncept img {
+        padding-right: 0;
+        width: 20%;
+        float: none;
     }
 
 
