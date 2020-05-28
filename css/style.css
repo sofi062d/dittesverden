@@ -235,8 +235,9 @@ p {
 
 .gridopskrifter img {
     width: 100%;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
-
 
 .modal_dialog {
     position: fixed;
@@ -291,6 +292,7 @@ p {
 
 .portraet {
     width: 50%;
+    height: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -770,30 +772,24 @@ footer h3 {
 
     /*-----OM DITTES VERDEN-----*/
 
-
-    .kontaktmigknap {
-        margin: 15px 90px;
-    }
-
     .omditterow {
         display: flex;
         flex-direction: row;
     }
 
-    .omdittecol {
-        flex-direction: column;
-        width: 100%;
-    }
-
     .omditterow img {
-        width: 30%;
+        width: 50%;
         margin-right: 10%;
     }
 
-    .kontaktmigknap {
-        width: 40%;
-        padding: 13px;
+    .dittecitat {
+        margin-right: 30px;
+    }
 
+    .kontaktmigknap {
+        width: 80%;
+        padding: 20px;
+        margin: 15px 0px;
     }
 
     .omkoncept {
@@ -909,10 +905,7 @@ footer h3 {
     }
 
     .specialiteter-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        padding-bottom: 30px;
     }
 
     .sortiment-billeder img {
